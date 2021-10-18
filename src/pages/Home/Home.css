@@ -1,0 +1,167 @@
+.about {
+  padding: 3rem 6rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}
+
+.about-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-detail p {
+  font-size: 1.5rem;
+}
+
+.about-imageholder {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #ffc107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 1rem 2rem #999;
+}
+
+.about-imageholder::after {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-color: whitesmoke;
+}
+
+.about-image {
+  height: 7rem;
+  z-index: 3;
+}
+
+.services {
+  padding: 0 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 10rem 6rem;
+}
+
+.service_second {
+  background-color: #ffc107;
+}
+
+.service_third {
+  background-color: #00043c;
+}
+
+.service-imageholder {
+  height: 10rem;
+  margin-right: 2rem;
+  width: 10rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missions-container {
+  padding: 0 6rem;
+  display: flex;
+}
+
+.mission-imgcover {
+  width: 50%;
+  height: 70rem;
+  display: inline-block;
+  background-image: url("../../assets/architecture.jpg");
+  background-size: cover;
+}
+
+.missions {
+  width: 50%;
+  height: 70rem;
+  display: inline-block;
+  padding: 4rem;
+}
+
+.missions h3,
+h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.counters {
+  display: block;
+}
+
+.counters_container_one {
+  display: inline-block;
+  width: 50%;
+  background-color: #f7f7f7;
+  padding: 4rem 2rem 4rem 10rem;
+}
+
+.counters_container_two {
+  display: inline-block;
+  width: 50%;
+  background-color: #ffc107;
+  padding: 4rem 10rem 4rem 2rem;
+}
+
+.counter {
+  display: inline-block;
+  color: black;
+  font-size: 2rem;
+}
+
+.counter:not(:last-child) {
+  margin-right: 13rem;
+}
+
+.email-subscription {
+  width: 80%;
+  margin: 4rem auto;
+  padding: 4rem;
+  background-color: #ffc107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.subscribe-heading {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.subscription-form {
+  margin-left: 4rem;
+}
+
+.subscription-form input,
+button {
+  border: none;
+  outline: none;
+  height: 6rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.subscription-form button {
+  border-radius: 0 10px 10px 0;
+  background-color: #ebbb2e;
+  color: white;
+}
