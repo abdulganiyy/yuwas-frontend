@@ -1,0 +1,10 @@
+.hero{
+    background: url('../../assets/architecture.jpg');
+    height: 40rem;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    padding: 4rem;
+    font-size: 5rem;
+}

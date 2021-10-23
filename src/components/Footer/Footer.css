@@ -1,4 +1,83 @@
 .footer {
-  background-color: #777;
+  background-color: #252525;
   display: flex;
+  flex-direction: row;
+}
+
+.footer h4{
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.nav-copywright-wrapper{
+  flex: 3;
+  padding: 4rem;
+}
+
+
+.footer_navs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer_navs .social-icon{
+  color: #FDBE34;
+  background-color: transparent;
+  border: 1px solid grey;
+}
+
+.footer_navs .social-icon:hover{
+  color: white;
+  
+}
+
+.footer_navs ul{
+ list-style: none;
+}
+
+.footer_navs li a{
+  color: grey;
+}
+.footer_quoteform{
+  background-color: #333333;
+  flex: 1;
+  padding: 2rem;
+}
+
+.footer_quoteform-container{
+  width: 95%;
+  margin: auto;
+}
+
+.footer_quoteform-container input,.footer_quoteform-container button{
+  display: inline-block;
+  width: 100%;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  height: 4rem;
+}
+
+.message{
+  height: 10rem ;
+  display: inline-block;
+  width: 100%;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+
+.footer_quoteform-container button{
+  background-color: #FDBE34;
+  font-size: 1.5rem;
 }

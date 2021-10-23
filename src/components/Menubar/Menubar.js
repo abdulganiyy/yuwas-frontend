@@ -28,19 +28,19 @@ const Menubar = () => {
         <nav className="navbar">
           <ul className="navigation-items">
             <li className="nav-item">
-              <Link>HOME</Link>
+              <Link to='/'>HOME</Link>
             </li>
             <li className="nav-item">
-              <Link>ABOUT</Link>
+              <Link to='/about'>ABOUT</Link>
             </li>
             <li className="nav-item">
-              <Link>OUR TEAM</Link>
+              <Link to='/team'>OUR TEAM</Link>
             </li>
             <li className="nav-item">
-              <Link>PROJECT</Link>
+              <Link to='/project'>PROJECT</Link>
             </li>
             <li className="nav-item">
-              <Link>CONTACT</Link>
+              <Link to='/contact'>CONTACT</Link>
             </li>
           </ul>
         </nav>
@@ -51,27 +51,21 @@ const Menubar = () => {
           >
             <ion-icon name="menu-outline"></ion-icon>
           </span>
-          <ul
-            className={
-              mobileActive
-                ? "navigation-items"
-                : "navigation-items navigation-items-hidden"
-            }
-          >
+          <ul className="navigation-items">
             <li className="nav-item">
-              <Link>HOME</Link>
+              <Link to='/'>HOME</Link>
             </li>
             <li className="nav-item">
-              <Link>ABOUT</Link>
+              <Link to='/about'>ABOUT</Link>
             </li>
             <li className="nav-item">
-              <Link>OUR TEAM</Link>
+              <Link to='/team'>OUR TEAM</Link>
             </li>
             <li className="nav-item">
-              <Link>PROJECT</Link>
+              <Link to='/project'>PROJECT</Link>
             </li>
             <li className="nav-item">
-              <Link>CONTACT</Link>
+              <Link to='/contact'>CONTACT</Link>
             </li>
           </ul>
         </nav>
