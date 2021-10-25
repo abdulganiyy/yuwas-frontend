@@ -35,7 +35,7 @@ const Slider = () => {
     };
   }, [activeSlideIndex]);
   return (
-    <div className="hero">
+    <div className="slider">
       <div
         style={{ backgroundImage: `url(${img1})` }}
         className={activeSlideIndex === 0 ? "slide" : "slide slide-hidden"}

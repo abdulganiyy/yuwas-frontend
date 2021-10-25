@@ -1,9 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import Project1Photo1 from "../../assets/project1-photo1.jpg";
-import Project1Photo2 from "../../assets/project1-photo2.jpg";
-import Project1Photo3 from "../../assets/project1-photo3.jpg";
-import Project1Photo4 from "../../assets/project1-photo4.jpg";
+import Project1Photo1 from "../../assets/uba1.jpeg";
+import Project1Photo2 from "../../assets/uba2.jpeg";
+import Project1Photo3 from "../../assets/uba3.jpeg";
+import Project1Photo4 from "../../assets/uba4.jpeg";
 
 import LightBox from "../LightBox/LightBox";
 

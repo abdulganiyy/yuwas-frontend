@@ -29,10 +29,10 @@ const Footer = () => {
         <div className="services_footer">
           <h4>Services</h4>
           <ul>
-            <li><Link>Construction</Link></li>
-            <li><Link>House Renovation</Link></li>
-            <li><Link>Painting</Link></li>
-            <li><Link>Architecture Design</Link></li>
+            <li><Link>Building Construction</Link></li>
+            <li><Link>Project Management</Link></li>
+            <li><Link>Logistics</Link></li>
+            <li><Link>General Contractor</Link></li>
 
           </ul>
         </div>

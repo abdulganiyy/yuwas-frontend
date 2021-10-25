@@ -2,7 +2,7 @@
   padding: 3rem 6rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 2rem;
+  gap: 2rem;
 }
 
 .about-detail {
@@ -164,4 +164,56 @@ button {
   border-radius: 0 10px 10px 0;
   background-color: #ebbb2e;
   color: white;
+}
+
+@media (max-width: 56.25em) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .missions-container {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .mission-imgcover,
+  .missions {
+    width: 100%;
+  }
+
+  .missions {
+    margin-bottom: 1rem;
+  }
+
+  .counters_container_one,
+  .counters_container_two {
+    display: block;
+    width: 100%;
+    padding: 4rem 2rem 4rem 10rem;
+  }
+
+  .counter {
+    display: block;
+    width: 100%;
+    padding-top: 3rem;
+  }
+
+  .email-subscription {
+    flex-direction: column;
+    padding: 3rem 2rem;
+    width: 90%;
+  }
+
+  .subscription-form {
+    margin-left: 0;
+  }
+
+  .subscribe-heading {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
 }

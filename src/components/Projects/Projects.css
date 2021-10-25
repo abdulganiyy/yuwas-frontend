@@ -54,3 +54,15 @@
 .project:hover .modal-opener {
   visibility: visible;
 }
+
+@media (max-width: 56.25em) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40rem;
+  }
+
+  .modal-opener {
+    visibility: visible;
+  }
+}
