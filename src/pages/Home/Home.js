@@ -21,10 +21,10 @@ const Home = () => {
           </div>
           <h3 className="tertiary-heading">Construction</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            we believe in engineering and construction that are out of ordinary.
+            Something that is thoughtful, valuable, enduring and can move
+            people. We are involved in a wide variety of building construction
+            type ranging from office building to residential and more.
           </p>
         </div>
         <div className="about-detail">
@@ -33,34 +33,34 @@ const Home = () => {
           </div>
           <h3 className="tertiary-heading">Architecture Design</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            We provide architectural designs for any kind of construction and
+            building project ranging from low rise to high rise buildings. Our
+            architectural designs are state-of-the-art designs prefectly created
+            to suit the taste of our clients.
           </p>
         </div>
         <div className="about-detail">
           <div className="about-imageholder">
             <img src={building} alt="building" className="about-image" />
           </div>
-          <h3 className="tertiary-heading">Home Renovation</h3>
+          <h3 className="tertiary-heading">Project Management</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Yuswas project management is a project management section/unit of
+            Yuswas Invesments Limited. The unit involves herself in project
+            management and consulting. The project management arm assists our
+            clients (individual and corporate bodies) to manage any type of
+            projects.
           </p>
         </div>
         <div className="about-detail">
           <div className="about-imageholder">
             <img src={condo} alt="building" className="about-image" />
           </div>
-          <h3 className="tertiary-heading">Painting</h3>
+          <h3 className="tertiary-heading">Home Renovation</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            We offer renovation services ranging from electrical
+            repairs,plumbing, repainting, interior decorations for various
+            building and construction projects.
           </p>
         </div>
       </section>
@@ -72,8 +72,8 @@ const Home = () => {
           <div className="service-detail">
             <h3 className="tertiary-heading">Expert & Professional</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Our professionals are experts of the building and construction
+              business.
             </p>
           </div>
         </div>
@@ -84,8 +84,8 @@ const Home = () => {
           <div className="service-detail">
             <h3 className="tertiary-heading">Expert & Professional</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Our professionals are experts of the building and construction
+              business.
             </p>
           </div>
         </div>
@@ -96,8 +96,8 @@ const Home = () => {
           <div className="service-detail">
             <h3 className="tertiary-heading">Expert & Professional</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Our professionals are experts of the building and construction
+              business.
             </p>
           </div>
         </div>

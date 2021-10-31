@@ -40,25 +40,23 @@ const Tabs = () => {
       </div>
       <div className="tabs">
         <div className={activeTab === "mission" ? "tab activeTab" : "tab"}>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of the Semantics, a large
-          language ocean. Separated they live in Bookmarksgrove right at the
-          coast of the Semantics, a large language ocean.1
+          Our businesses are carried out with the execution of a carefully and
+          studied plan to provide professional, timely and efficient support to
+          our clients - private individuals and corporate organisations.
         </div>
         <div className={activeTab === "vision" ? "tab activeTab" : "tab"}>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of the Semantics, a large
-          language ocean. Separated they live in Bookmarksgrove right at the
-          coast of the Semantics, a large language ocean.2
+          Our principal activity is to utilize of our products and
+          professionalisms to ensure a profit is made for stakeholders while
+          fulfilling our clients’ objectives in a cost effective ways.
         </div>
         <div className={activeTab === "value" ? "tab activeTab" : "tab"}>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of the Semantics, a large
-          language ocean. Separated they live in Bookmarksgrove right at the
-          coast of the Semantics, a large language ocean.3
+          The keys to profitability lie in the constant demand for our service
+          by the public and our ability to minimise risks, overheads and
+          operating costs. Our company minimises these risks through effective
+          monitoring and communications, as well as maintaining a transparency
+          culture as much as possible. Our strengths lie in our management
+          structures and management plan, which result in increase efficiency,
+          reduce downtime, and increase profits.
         </div>
       </div>
     </div>
