@@ -178,6 +178,7 @@ button {
   .missions-container {
     flex-direction: column;
     margin-bottom: 2rem;
+    padding: 1rem;
   }
 
   .mission-imgcover,

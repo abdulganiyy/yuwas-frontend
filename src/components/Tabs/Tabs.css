@@ -44,3 +44,10 @@
 .activeTab {
   display: block;
 }
+
+@media (max-width: 900px) {
+  .tabItem {
+    font-size: 1rem;
+    width: 30%;
+  }
+}
