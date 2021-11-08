@@ -38,3 +38,15 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 900px) {
+  /* .slide h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #ffc107;
+  }
+   */
+  .slide h1 {
+    font-size: 2.5rem;
+  }
+}
