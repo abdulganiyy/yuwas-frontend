@@ -55,3 +55,9 @@
 .prev {
   left: 4rem;
 }
+
+@media (max-width: 900px) {
+  .lightbox-imagescontainer {
+    inset: 25%;
+  }
+}
