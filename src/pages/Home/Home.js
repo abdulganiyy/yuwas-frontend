@@ -113,14 +113,14 @@ const Home = () => {
       <section className="counters">
         <div className="counters_container_one">
           <div className="counter">
-            <h1>10</h1>
+            <h1>13</h1>
             <div>
               <h2>YEARS OF</h2>
               <h2>EXPERIENCE</h2>
             </div>
           </div>
           <div className="counter">
-            <h1>20</h1>
+            <h1>30</h1>
             <div>
               <h2>PROJECTS</h2>
               <h2>DONE</h2>
@@ -129,14 +129,14 @@ const Home = () => {
         </div>
         <div className="counters_container_two">
           <div className="counter">
-            <h1>100</h1>
+            <h1>20</h1>
             <div>
               <h2>PROFESSIONAL</h2>
               <h2>EXPERT</h2>
             </div>
           </div>
           <div className="counter">
-            <h1>200</h1>
+            <h1>30</h1>
             <div>
               <h2>MACHINERIES</h2>
               <h2>EQUIPMENT</h2>

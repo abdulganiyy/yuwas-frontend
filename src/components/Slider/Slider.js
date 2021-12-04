@@ -40,25 +40,25 @@ const Slider = () => {
         style={{ backgroundImage: `url(${img1})` }}
         className={activeSlideIndex === 0 ? "slide" : "slide slide-hidden"}
       >
-        <h2>At Yuswas Investments</h2>
+        <h2>Yuswas Investments</h2>
         <h1>
           {" "}
-          We believe in engineering and construction that are out of ordinary
+          Building the future. Restoring the past
         </h1>
       </div>
       <div
         style={{ backgroundImage: `url(${img2})` }}
         className={activeSlideIndex === 1 ? "slide" : "slide slide-hidden"}
       >
-        <h2>At Yuswas Investments</h2>
-        <h1>We assist to manage any type of projects</h1>
+        <h2>Yuswas Investments</h2>
+        <h1>Broad Vision. Careful thought. Hand-crafted design.</h1>
       </div>
       <div
         style={{ backgroundImage: `url(${img3})` }}
         className={activeSlideIndex === 2 ? "slide" : "slide slide-hidden"}
       >
-        <h2>At Yuswas Investments</h2>
-        <h1>We are involved in a wide variety of building construction type</h1>
+        <h2> Yuswas Investments</h2>
+        <h1>Quality construction. Honest service. Great value.</h1>
       </div>
     </div>
   );

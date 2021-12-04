@@ -40,23 +40,13 @@ const Tabs = () => {
       </div>
       <div className="tabs">
         <div className={activeTab === "mission" ? "tab activeTab" : "tab"}>
-          Our businesses are carried out with the execution of a carefully and
-          studied plan to provide professional, timely and efficient support to
-          our clients - private individuals and corporate organisations.
+        Our Mission is to offer excellent service in each of our professional disciplines, in accordance with statutory practices, codes of conduct and integrity, thereby providing a leading platform from which to service the built environment and in particular, our valued Clients. 
         </div>
         <div className={activeTab === "vision" ? "tab activeTab" : "tab"}>
-          Our principal activity is to utilize of our products and
-          professionalisms to ensure a profit is made for stakeholders while
-          fulfilling our clients’ objectives in a cost effective ways.
+        To grow our multi-disciplinary team in order to offer a broad spectrum of specialist in construction and project  Management works to become our Clients' preferred Professional Service Provider (PSP) through excellence and efficiency in all aspects of the project life cycle
         </div>
         <div className={activeTab === "value" ? "tab activeTab" : "tab"}>
-          The keys to profitability lie in the constant demand for our service
-          by the public and our ability to minimise risks, overheads and
-          operating costs. Our company minimises these risks through effective
-          monitoring and communications, as well as maintaining a transparency
-          culture as much as possible. Our strengths lie in our management
-          structures and management plan, which result in increase efficiency,
-          reduce downtime, and increase profits.
+        We provide services for every aspect of a construction project from initial design brief through construction to maintenance after the construction. 
         </div>
       </div>
     </div>
